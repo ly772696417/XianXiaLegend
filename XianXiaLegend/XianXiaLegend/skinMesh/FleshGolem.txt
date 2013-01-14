@@ -1,0 +1,9 @@
+***以下为当前skinmesh的动作名称
+attack6
+attack5
+attack4
+attack3
+attack2
+attack1
+wait
+run

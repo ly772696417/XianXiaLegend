@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Water">
+      <UniqueIdentifier>{01ac19f2-79a1-486c-8c95-7afb99f141cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Particle">
+      <UniqueIdentifier>{fef29b40-c03f-4989-9472-f3b19bfcf841}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameUI">
+      <UniqueIdentifier>{1aacadee-a42d-4812-a2f4-67ebd39c706a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mode">
+      <UniqueIdentifier>{c0544e5b-585c-4743-831f-992eded3b253}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneObject">
+      <UniqueIdentifier>{2beb40d8-0b5d-4c2a-bcf9-72a08c7116e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SystemResource">
+      <UniqueIdentifier>{d7aa185f-9704-4685-9405-2a33a8b1526d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Terrain">
+      <UniqueIdentifier>{1271ba24-403e-426d-9998-01d4d80c9ae0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameManager">
+      <UniqueIdentifier>{8a880733-744a-46d4-9910-b705c2aecb02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3DInit">
+      <UniqueIdentifier>{464a99ed-b513-49a9-9a7b-7d02ff732a5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3DUtil">
+      <UniqueIdentifier>{08b75819-afa5-4444-93bd-8631d2a6d2dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FXFolder">
+      <UniqueIdentifier>{85681eae-6115-4cc3-87b4-dc08f715909f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IniFolder">
+      <UniqueIdentifier>{a4ba2be6-9623-4660-a5ba-b5792d17a2a6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>D3DInit</Filter>
+    </ClCompile>
+    <ClCompile Include="FrantoGE.cpp">
+      <Filter>D3DInit</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>SystemResource</Filter>
+    </ClCompile>
+    <ClCompile Include="Device.cpp">
+      <Filter>SystemResource</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>SystemResource</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="StartUI.cpp">
+      <Filter>GameUI</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimInstance.cpp">
+      <Filter>Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshManager.cpp">
+      <Filter>Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinMesh.cpp">
+      <Filter>Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="BillBoard.cpp">
+      <Filter>SceneObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Deck.cpp">
+      <Filter>SceneObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Major.cpp">
+      <Filter>SceneObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>SceneObject</Filter>
+    </ClCompile>
+    <ClCompile Include="MyObject.cpp">
+      <Filter>SceneObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Sky.cpp">
+      <Filter>SceneObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Heightmap.cpp">
+      <Filter>Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="ZFrustum.cpp">
+      <Filter>Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="ZQuadTree.cpp">
+      <Filter>Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Water.cpp">
+      <Filter>Water</Filter>
+    </ClCompile>
+    <ClCompile Include="MyFuntion.cpp">
+      <Filter>D3DUtil</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FrantoGE.h">
+      <Filter>D3DInit</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>SystemResource</Filter>
+    </ClInclude>
+    <ClInclude Include="Device.h">
+      <Filter>SystemResource</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>SystemResource</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="StartUI.h">
+      <Filter>GameUI</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimInstance.h">
+      <Filter>Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshManager.h">
+      <Filter>Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinMesh.h">
+      <Filter>Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="BillBoard.h">
+      <Filter>SceneObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Deck.h">
+      <Filter>SceneObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Major.h">
+      <Filter>SceneObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>SceneObject</Filter>
+    </ClInclude>
+    <ClInclude Include="MyObject.h">
+      <Filter>SceneObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Sky.h">
+      <Filter>SceneObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Heightmap.h">
+      <Filter>Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="ZFrustum.h">
+      <Filter>Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="ZQuadTree.h">
+      <Filter>Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Water.h">
+      <Filter>Water</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>D3DUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>D3DUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="MyFuntion.h">
+      <Filter>D3DUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="Table.h">
+      <Filter>D3DUtil</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IniFolder\billboard.ini">
+      <Filter>IniFolder</Filter>
+    </None>
+    <None Include="IniFolder\mesh.ini">
+      <Filter>IniFolder</Filter>
+    </None>
+    <None Include="IniFolder\Particle.ini">
+      <Filter>IniFolder</Filter>
+    </None>
+    <None Include="IniFolder\scene.ini">
+      <Filter>IniFolder</Filter>
+    </None>
+    <None Include="IniFolder\terrain.ini">
+      <Filter>IniFolder</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="FXFolder\sky.fx">
+      <Filter>FXFolder</Filter>
+    </FxCompile>
+    <FxCompile Include="FXFolder\terrain_multitexture.fx">
+      <Filter>FXFolder</Filter>
+    </FxCompile>
+    <FxCompile Include="FXFolder\Water.fx">
+      <Filter>FXFolder</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

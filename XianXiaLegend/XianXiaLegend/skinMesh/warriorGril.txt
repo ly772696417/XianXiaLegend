@@ -1,0 +1,11 @@
+***以下为当前skinmesh的动作名称
+behited
+skill2
+skill1
+attack
+death
+ready
+swim
+run
+walk
+wait
